@@ -7,7 +7,7 @@ Pull and run
 
 ```bash
 docker pull theodesp/guile-scheme-alpine
-docker run -it --name chichen `docker images -q theodesp/guile-scheme-alpine`
+docker run -it --name guile `docker images -q theodesp/guile-scheme-alpine`
 ```
 
 ## Licence
